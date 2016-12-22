@@ -22,7 +22,7 @@ that don't have APIs, RoboBrowser can help.
     from robobrowser import RoboBrowser
 
     # Browse to Genius
-    browser = RoboBrowser(history=True)
+    browser = RoboBrowser(history=True, parser='html.parser')
     browser.open('http://genius.com/')
 
     # Search for Porcupine Tree
